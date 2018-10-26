@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Custom_Lava
+  m_Shader: {fileID: 4800000, guid: 18766d656149259478cdc36a31ebd836, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DispTex:
+        m_Texture: {fileID: 2800000, guid: 2011beb28fa4aef42bea389e6680acf4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GROUNDTEXT:
+        m_Texture: {fileID: 2800000, guid: fd29d64a24bfd2e409a898a5e679d43c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBTEXT:
+        m_Texture: {fileID: 2800000, guid: 3b267de19ec60f747896a9cde6f82063, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Displacement: 0.273
+    - _Glossiness: 0
+    - _Metallic: 0
+    - _RGBSCROLLSPEED: 1.17
+    - _Tess: 10.7
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

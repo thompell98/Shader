@@ -18,14 +18,14 @@
 		// Physically based Standard lighting model, and enable shadows on all light types
 		#pragma surface surf Standard fullforwardshadows vertex:disp tessellate:tessDistance
 
-		#pragma target 4.6
+		#pragma target 3.0
 
 		#include "Tessellation.cginc"
 			struct appdata {
 				float4 vertex :POSITION;
-				float4 tangent: TANGENT;
-				float3 normal : NORMAL;
-				float2 texcoord : TEXCOORD0;
+				float4 tangent :TANGENT;
+				float3 normal :NORMAL;
+				float2 texcoord :TEXCOORD0;
 			};
 			float _Tess;
 
